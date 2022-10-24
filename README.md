@@ -60,6 +60,8 @@ My messy Hyprland config...
     - [Offical Hyprland Wiki](https://wiki.hyprland.org/Configuring/Basic-Config/)
         - [Older But More Advanced](https://github.com/hyprwm/Hyprland/wiki/Advanced-config)
     - [Uniform Look For QT & GTK Applications](https://wiki.archlinux.org/title/Uniform_look_for_Qt_and_GTK_applications)
+## Keybindings (not finished)
+graph
 
 ## Acknowledgments (not finished)
 - wallpapers
