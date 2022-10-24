@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=VentoyGUI
+Comment=Ventoy GTK3 GUI
+Exec=sudo -E /opt/ventoy/tool/x86_64/Ventoy2Disk.gtk3
+Icon=ventoy
+Terminal=true
+StartupNotify=true
+Categories=files;root;disks;flashing;usb

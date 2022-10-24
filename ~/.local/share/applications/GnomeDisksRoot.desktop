@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Disks Root
+Comment=Root gnome disks
+Exec=sudo -E gnome-disks
+Icon=/usr/share/icons/hicolor/scalable/apps/org.gnome.DiskUtility.svg
+Terminal=true
+StartupNotify=true
+Categories=files;root;disks

@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Xfce Settings
+Comment=settings manager for xfce4
+Exec=/home/[REPLACE]/.local/share/applications/xfce_settings.sh
+Icon=/home/[REPLACE]/.config/google-chrome/Profile 1/Extensions/bnchicpgbdgahiecgofdabidjihblaff/2.1.11_0/assets/settings.png
+Terminal=false
+StartupNotify=true
+Categories=settings

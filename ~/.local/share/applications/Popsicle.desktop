@@ -1,0 +1,14 @@
+#!/usr/bin/env xdg-open
+
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Popsicle
+Comment=GUI USB Flasher
+Exec=/home/[REPLACE]/.local/share/applications/popsicle.sh
+Icon=/usr/share/icons/hicolor/48x48/apps/com.system76.Popsicle.png
+Terminal=true
+StartupNotify=true
+StartupWMClass=jetbrains-pycharm-ce
+Categories=Development;IDE;Python;
+Name[en_US]=Popsicle

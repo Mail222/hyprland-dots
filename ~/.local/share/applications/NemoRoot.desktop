@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Nemo Root
+Comment=root file explorer
+Exec=sudo -E nemo
+Icon=nemo
+Terminal=true
+StartupNotify=true
+Categories=files;root

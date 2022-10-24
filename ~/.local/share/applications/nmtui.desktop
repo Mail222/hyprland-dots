@@ -1,0 +1,11 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=nmtui
+Comment=Text GUI for Network Manager
+Exec=nmtui
+Icon=/usr/share/lshw/artwork/wifi.svg
+Terminal=true
+StartupNotify=true
+Categories=settings;network;wifi
