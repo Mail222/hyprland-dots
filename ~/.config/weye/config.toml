@@ -1,0 +1,17 @@
+[config_selecte]
+delay = 0
+save_path = "/home/liam/Pictures/"
+file_name = "second + Screenshot- + month + - + day + - + year"
+save_type = "png"
+
+[config_window]
+delay = 0
+save_path = "/home/liam/Pictures/"
+file_name = "second + Screenshot- + month + - + day + - + year"
+save_type = "png"
+
+[config_fulshot]
+delay = 0
+save_path = "/home/liam/Pictures/"
+file_name = "second + Screenshot- + month + - + day + - + year"
+save_type = "png"
