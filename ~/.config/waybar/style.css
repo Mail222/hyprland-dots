@@ -1,0 +1,41 @@
+* {
+    font-size: 20px;
+    font-family: Comfortaa;
+}
+
+window#waybar {
+    background: rgba(0,0,0,0.333);
+    color: rgb(255,255,255);
+}
+#custom-spacer2 {
+    color: rgba(0,0,0,0);
+}
+
+#pulseaudio {
+    color: rgb(55,160,250);
+}
+#memory {
+    color: rgb(55,252,183);
+}
+#temperature,
+#cpu {
+    color: rgb(181,193,201);
+}
+#battery {
+    color: rgb(55,247,64);
+}
+#display {
+    color: rgb(0,0,0);
+}
+#backlight {
+    color: #B58900;
+}
+
+#clock,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#display {
+    padding: 0 10px;
+}

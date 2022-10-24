@@ -1,1 +1,1 @@
-
+replace [REPLACE] with your user in ~/.local/share/applications

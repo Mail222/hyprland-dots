@@ -1,0 +1,163 @@
+// -*- mode: json -*-
+
+{
+    "layer": "top",
+    "position": "bottom",
+
+    "modules-left": [
+        "custom/spacer",
+        "tray",
+        "bluetooth",
+        "custom/spacer",
+        "clock#1",
+        "custom/spacer",
+        "clock#2",
+        "custom/spacer",
+        "clock#3",
+        "custom/spacer",
+        "mpd"
+    ],
+    "modules-center": [
+        "custom/menu",
+        "modules/hyprland"
+    ],
+    "modules-right": [
+        "network",
+        "custom/spacer",
+        "pulseaudio",
+        "custom/spacer",
+        "memory",
+        "custom/spacer",
+        "cpu",
+        "temperature",
+        "custom/spacer",
+//        "disk",
+        "backlight",
+        "custom/spacer",
+        "battery",
+        "custom/notifs"
+    ],
+
+    "custom/spacer": {
+        "format": "  ",
+        "tooltip": false
+    },
+    "custom/spacer2": {
+        "format": "⁤⁣⁢‍‍",
+        "tooltip": false
+    },
+
+    "custom/menu": {
+        "format": "  ",
+        "on-click": "wofi --show drun -o DP-3 --conf /home/liam/.config/wofi/config --style /home/liam/.config/wofi/style.css",
+        "tooltip": false
+    },
+
+    "clock#1": {
+        "format": "{:%a}",
+        "tooltip": false
+    },
+    "clock#2": {
+        "format": "{:%I:%M %p}",
+        "tooltip": false
+    },
+    "clock#3": {
+        "format": "{:%m-%d}",
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume:2}%",
+        "format-bluetooth": "{icon} {volume}% ",
+        "format-muted": "",
+        "format-icons": {
+            "headphones": "",
+            "default": [
+                "",
+                ""
+            ]
+        },
+        "scroll-step": 1,
+        "on-click": "easyeffects",
+    },
+    "bluetooth": {
+        "format": " ",
+        "on-click": "blueberry"
+    },
+    "network": {
+            "interval": 5,
+            "format-linked":"!/",
+            "format-wifi": "<span size='103%' rise='600'>{icon}</span>",
+            "format-icons": ["1/", "2/", "3/", "4/", "5/"],
+            "format-disconnected": "No internet",
+            "interface": "wlan0",
+            "on-click": "nm-connection-editor",
+            "tooltip-format-wifi": "{essid}:{signalStrength}\nSpeed:{bandwidthDownBits} \n{ipaddr}"
+        },
+    "memory": {
+        "interval": 5,
+        "format": " {}%"
+    },
+    "cpu": {
+        "interval": 5,
+        "format": "{usage:2}%"
+    },
+    "temperature": {
+        "format": "{temperatureC}"
+    },
+    "battery": {
+        "states": {
+            "good": 95,
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon} {capacity}% ",
+        "format-icons": [
+            "",
+            "",
+            ""
+        ]
+    },
+    "backlight": {
+        "format": " {percent}%",
+        "on-scroll-up": "brightnessctl set +1%",
+        "on-scroll-down": "brightnessctl set 1%-"
+    },
+//    "disk": {
+//        "interval": 5,
+//        "format": "Disk {percentage_used:2}%",
+//        "path": "/"
+    "tray": {
+        "icon-size": 25,
+        "spacing": 10
+    },
+    "custom/notifs": {
+        "format": " ",
+        "on-click": "swaync-client -t -sw"
+    },
+    "mpd": {
+    "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ",
+    "format-disconnected": "Disconnected ",
+    "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+    "interval": 2,
+    "consume-icons": {
+        "on": " " // Icon shows only when "consume" is on
+    },
+    "random-icons": {
+//        "off": "<span color=""></span> ",
+        "on": " "
+    },
+    "repeat-icons": {
+        "on": " "
+    },
+    "single-icons": {
+        "on": "1 "
+    },
+    "state-icons": {
+        "paused": "",
+        "playing": ""
+    },
+    "tooltip-format": "MPD (connected)",
+    "tooltip-format-disconnected": "MPD (disconnected)"
+  },
+}
