@@ -1,5 +1,5 @@
 # hyprland-dots
-My messy Hyprland config
+My messy Hyprland config...
 ![Hyprland Desktop](/images/screenshot1.png "Desktop")
 ![What Workflow Might Look Like...](/images/screenshot2.png "Desktop with apps")
 ## Overview
@@ -13,32 +13,45 @@ My messy Hyprland config
     File Manager : Nemo
     Text Editor : Neovim
     Web Browser : Librewolf
-
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Within a particular ecosystem, there may be a common way of installing things, such as using Yarn, NuGet, or Homebrew. However, consider the possibility that whoever is reading your README is a novice and would like more guidance. Listing specific steps helps remove ambiguity and gets people to using your project as quickly as possible. If it only runs in a specific context like a particular programming language version or operating system or has dependencies that have to be installed manually, also add a Requirements subsection.
-
 ## Usage
-Use examples liberally, and show the expected output if you can. It's helpful to have inline the smallest example of usage that you can demonstrate, while providing links to more sophisticated examples if they are too long to reasonably include in the README.
-
-## Support
-Tell people where they can go to for help. It can be any combination of an issue tracker, a chat room, an email address, etc.
-
-## Roadmap
-If you have ideas for releases in the future, it is a good idea to list them in the README.
-
-## Contributing
-State if you are open to contributions and what your requirements are for accepting them.
-
-For people who want to make changes to your project, it's helpful to have some documentation on how to get started. Perhaps there is a script that they should run or some environment variables that they need to set. Make these steps explicit. These instructions could also be useful to your future self.
-
-You can also document commands to lint the code or run tests. These steps help to ensure high code quality and reduce the likelihood that the changes inadvertently break something. Having instructions for running tests is especially helpful if it requires external setup, such as starting a Selenium server for testing in a browser.
+- Install the following packages/applications
+    - [yay](https://github.com/Jguer/yay)
+    - [blueberry](https://archlinux.org/packages/community/any/blueberry/)
+    - [pipewire](https://archlinux.org/packages/extra/x86_64/pipewire/)
+    - [brightnessctl](https://aur.archlinux.org/packages/brightnessctl-git)
+    - [xfce4-settings-manager](https://archlinux.org/packages/extra/x86_64/xfce4-settings/)
+    - [gnome-tweaks](https://archlinux.org/packages/extra/any/gnome-tweaks/)
+    - [gnome-disks](https://archlinux.org/packages/extra/x86_64/gnome-disk-utility/)
+    - [gparted](https://archlinux.org/packages/extra/x86_64/gparted/)
+    - [network-manager-applet](https://wiki.archlinux.org/title/NetworkManager)
+    - [nmtui](https://wiki.archlinux.org/title/NetworkManager)
+    - [xfce4-terminal](https://archlinux.org/packages/extra/x86_64/xfce4-terminal/)
+    - [kitty](https://archlinux.org/packages/community/x86_64/kitty/)
+    - [sddm](https://archlinux.org/packages/extra/x86_64/sddm/)
+    - [nemo](https://archlinux.org/packages/community/x86_64/nemo/t)
+    - [ls-icons](https://github.com/sebastiencs/ls-icons)
+    - [SwayNotificationCenter](https://github.com/ErikReider/SwayNotificationCenter)
+    - [neovim](https://archlinux.org/packages/community/x86_64/neovim/)
+    - [ego](https://github.com/intgr/ego) 
+- Optional (but recommended) packages/applications
+    - Nordic Theme
+    - [font-manager](https://aur.archlinux.org/packages/font-manager-git)
+    - [Comfortaa Font](https://fonts.google.com/specimen/Comfortaa)
+    - [swayimg](https://github.com/artemsen/swayimg)
+    - [librewolf :D](https://librewolf.net/installation/arch/)
+    - [easyeffects](https://archlinux.org/packages/community/x86_64/easyeffects/)
+    - [sublime-text](https://www.sublimetext.com/docs/linux_repositories.html)
+    - [filezilla](https://archlinux.org/packages/community/x86_64/filezilla/)
+    - [discordcanary](https://archlinux.org/packages/community/x86_64/discord-canary/)
+- Follow the directories and copy the config files :D
+    - "~" meaning home and don't forget to replace "[REPLACE]" with your user.
+- Helpful Resources
+    - [Awesome Wayland (what applications to use)](https://github.com/natpen/awesome-wayland)
+    - [Running GUI Applications as Root](https://wiki.archlinux.org/title/Running_GUI_applications_as_root)
+        - [ego](https://github.com/intgr/ego) 
+    - [Offical Hyprland Wiki](https://wiki.hyprland.org/Configuring/Basic-Config/)
+        - [Older But More Advanced](https://github.com/hyprwm/Hyprland/wiki/Advanced-config)
+    - [Uniform Look For QT & GTK Applications](https://wiki.archlinux.org/title/Uniform_look_for_Qt_and_GTK_applications)
 
 ## Authors and acknowledgment
 Show your appreciation to those who have contributed to the project.
@@ -47,4 +60,4 @@ Show your appreciation to those who have contributed to the project.
 For open source projects, say how it is licensed.
 
 ## Project status
-If you have run out of energy or time for your project, put a note at the top of the README saying that development has slowed down or stopped completely. Someone may choose to fork your project or volunteer to step in as a maintainer or owner, allowing your project to keep going. You can also make an explicit request for maintainers.
+Will be maintained for as long as I use Arch...
