@@ -1,1 +1,2 @@
-replace [REPLACE] with your user in ~/.local/share/applications
+- .local/share/applications includes .Desktop files and scripts to enhance wofi. 
+- Reminder: replace "[REPLACE]" with your user.
