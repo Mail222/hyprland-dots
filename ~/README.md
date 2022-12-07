@@ -1,2 +1,2 @@
 - .local/share/applications includes .Desktop files and scripts to enhance wofi. 
-- Reminder: replace "[REPLACE]" with your user.
+- Reminder: replace "$USER" with your user.

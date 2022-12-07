@@ -52,7 +52,7 @@ My messy Hyprland config...
     - [discordcanary](https://archlinux.org/packages/community/x86_64/discord-canary/)
     - [thef*ck](https://github.com/nvbn/thefuck)
 - Follow the directories and copy the config files
-    - "~" meaning home and don't forget to replace "[REPLACE]" with your user.
+    - "~" meaning home and don't forget to replace "$USER" with your user.
 - Helpful Resources
     - [Awesome Wayland (what applications to use)](https://github.com/natpen/awesome-wayland)
     - [Running GUI Applications as Root](https://wiki.archlinux.org/title/Running_GUI_applications_as_root)

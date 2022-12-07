@@ -49,7 +49,7 @@
 
     "custom/menu": {
         "format": "  ",
-        "on-click": "wofi --show drun -o DP-3 --conf /home/[REPLACE]/.config/wofi/config --style /home/[REPLACE]/.config/wofi/style.css",
+        "on-click": "wofi --show drun -o DP-3 --conf /home/$USER/.config/wofi/config --style /home/$USER/.config/wofi/style.css",
         "tooltip": false
     },
 
