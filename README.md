@@ -1,5 +1,5 @@
 # hyprland-dots
-My messy Hyprland config...
+My messy Hyprland config... now synced to GitHub!
 ![Hyprland Desktop](/images/screenshot1.png "Desktop")
 ![What Workflow Might Look Like...](/images/screenshot2.png "Desktop with apps")
 ## Overview
