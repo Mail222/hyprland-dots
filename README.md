@@ -70,3 +70,7 @@ graph
 
 ## Project status
 Will be maintained for as long as I use Arch...
+Arch is no longer my main OS, it is currently 3rd in my priority.
+1. MacOS
+2. Fedora Kinoite (KDE)
+3. Arch Hyprland
